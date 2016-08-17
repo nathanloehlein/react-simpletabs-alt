@@ -1,11 +1,11 @@
 {
-  "name": "react-simpletabs",
-  "version": "0.6.1",
-  "homepage": "https://github.com/pedronauck/react-simpletabs",
+  "name": "react-simpletabs-alt",
+  "version": "0.7.0",
+  "homepage": "https://github.com/i-a-n/react-simpletabs-alt",
   "authors": [
-    "Pedro Nauck <pedronauck@gmail.com> (https://github.com/pedronauck)"
+    "Ian M <lists@union.io> (https://github.com/i-a-n)"
   ],
-  "description": "Just a simple tabs component built with React",
+  "description": "Just a simple tabs component built with React, forked from react-simpletabs",
   "main": "dist/react-simpletabs.js",
   "moduleType": [
     "amd",
