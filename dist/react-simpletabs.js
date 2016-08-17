@@ -1,10 +1,10 @@
 /*!
  * 
- *  React Simpletabs - Just a simple tabs component built with React
- *  @version v0.6.1
- *  @link https://github.com/pedronauck/react-simpletabs
+ *  React Simpletabs - Just a simple tabs component built with React, forked from react-simpletabs
+ *  @version v0.7.0
+ *  @link https://github.com/i-a-n/react-simpletabs-alt
  *  @license MIT
- *  @author Pedro Nauck (https://github.com/pedronauck)
+ *  @author Ian M (https://github.com/i-a-n)
  * 
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -203,7 +203,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
 
@@ -258,7 +258,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 3 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 

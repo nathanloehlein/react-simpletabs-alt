@@ -1,21 +1,21 @@
 {
-  "name": "react-simpletabs",
-  "version": "0.6.1",
-  "description": "Just a simple tabs component built with React",
+  "name": "react-simpletabs-alt",
+  "version": "0.7.0",
+  "description": "Just a simple tabs component built with React, forked from react-simpletabs",
   "author": {
-    "name": "Pedro Nauck",
-    "email": "pedronauck@gmail.com",
-    "url": "https://github.com/pedronauck"
+    "name": "Ian M",
+    "email": "lists@union.io",
+    "url": "https://github.com/i-a-n"
   },
   "bugs": {
-    "url": "https://github.com/pedronauck/react-simpletabs/issues"
+    "url": "https://github.com/i-a-n/react-simpletabs-alt/issues"
   },
-  "homepage": "https://github.com/pedronauck/react-simpletabs",
+  "homepage": "https://github.com/i-a-n/react-simpletabs-alt",
   "license": "MIT",
   "main": "dist/react-simpletabs.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pedronauck/react-simpletabs"
+    "url": "https://github.com/i-a-n/react-simpletabs-alt"
   },
   "keywords": [
     "react",
@@ -45,7 +45,7 @@
     ]
   },
   "peerDependencies": {
-    "react": "0.12.x - 1.x"
+    "react": "0.12.x - 1.x || 15.x"
   },
   "dependencies": {
     "classnames": "^1.2.0"
@@ -59,7 +59,7 @@
     "jest-cli": "^0.1.18",
     "jsx-loader": "^0.12.2",
     "lodash": "^2.4.1",
-    "react": "0.12.x - 1.x",
+    "react": "^15.0.0",
     "react-tools": "^0.12.2",
     "style-loader": "^0.8.1",
     "webpack": "^1.4.4"
