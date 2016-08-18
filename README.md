@@ -1,4 +1,4 @@
-# React SimpleTabs
+# React SimpleTabs Alt
 
 ![license](http://img.shields.io/npm/l/react-simpletabs-alt.svg?style=flat)
 ![version](https://img.shields.io/npm/v/react-simpletabs-alt.svg)
