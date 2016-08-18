@@ -1,12 +1,19 @@
 # React SimpleTabs
 
-![Git release](http://img.shields.io/github/release/pedronauck/react-simpletabs.svg?style=flat) ![Travis](http://img.shields.io/travis/pedronauck/react-simpletabs.svg?style=flat) ![license](http://img.shields.io/npm/l/react-simpletabs.svg?style=flat)
+![license](http://img.shields.io/npm/l/react-simpletabs-alt.svg?style=flat)
+![version](https://img.shields.io/npm/v/react-simpletabs-alt.svg)
 
-[![NPM](https://nodei.co/npm/react-simpletabs.png)](https://nodei.co/npm/react-simpletabs/)
+[![NPM](https://nodei.co/npm/react-simpletabs-alt.png)](https://nodei.co/npm/react-simpletabs/)
+
+# Fork notice
+
+This is forked from https://github.com/matthewgertner/react-simpletabs, so I could publish it on NPM and use it with React 15.x. The original README is as follows:
+
+---
 
 ![](http://f.cl.ly/items/25263r432i1W2U3p3b2m/react-simplestabs-screenshot.png)
 
-This is a simple `<Tabs>` component built with ReactJS.
+This is a simple `<Tabs>` component built with ReactJS. 
 
 #### See the [Demo](http://embed.plnkr.co/p6YVUK/preview).
 
