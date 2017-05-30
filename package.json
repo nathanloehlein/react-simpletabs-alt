@@ -1,7 +1,7 @@
 {
-  "name": "react-simpletabs-alt",
-  "version": "0.7.1",
-  "description": "Just a simple tabs component built with React, forked from react-simpletabs",
+  "name": "react-simpletabs-alt-r15",
+  "version": "0.9.0",
+  "description": "Just a simple tabs component built with React, forked from react-simpletabs-alt for react 15",
   "author": {
     "name": "Ian M",
     "email": "lists@union.io",
