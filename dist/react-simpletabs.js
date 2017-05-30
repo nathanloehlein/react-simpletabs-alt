@@ -1,10 +1,10 @@
 /*!
  * 
- *  React Simpletabs - Just a simple tabs component built with React
- *  @version v0.7.0
- *  @link https://github.com/pedronauck/react-simpletabs
+ *  React Simpletabs - Just a simple tabs component built with React, forked from react-simpletabs-alt for react 15
+ *  @version v0.9.0
+ *  @link https://github.com/i-a-n/react-simpletabs-alt
  *  @license MIT
- *  @author Pedro Nauck (https://github.com/pedronauck)
+ *  @author Ian M (https://github.com/i-a-n)
  * 
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -61,9 +61,9 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	/** @jsx React.DOM */'use strict';
+	'use strict';
 
 	var React = __webpack_require__(1);
 	var classNames = __webpack_require__(2);
@@ -121,8 +121,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    );
 	  },
 	  setActive:function(index, e) {
-	    e.preventDefault();
-
 	    var onAfterChange = this.props.onAfterChange;
 	    var onBeforeChange = this.props.onBeforeChange;
 	    var $selectedPanel = this.refs['tab-panel'];
@@ -189,10 +187,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Tabs.Panel = React.createClass({
 	  displayName: 'Panel',
 	  propTypes: {
-	    title: React.PropTypes.oneOfType([
-	      React.PropTypes.element,
-	      React.PropTypes.string
-	    ]).isRequired,
+	    title: React.PropTypes.string.isRequired,
 	    children: React.PropTypes.oneOfType([
 	      React.PropTypes.array,
 	      React.PropTypes.element
@@ -206,17 +201,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = Tabs;
 
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/** @jsx React.DOM *//*!
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	  Copyright (c) 2015 Jed Watson.
 	  Licensed under the MIT License (MIT), see
 	  http://jedwatson.github.io/classnames
@@ -261,13 +256,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
-/***/ }
+/***/ })
 /******/ ])
 });
 ;

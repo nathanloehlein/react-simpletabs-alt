@@ -39,7 +39,7 @@ module.exports = {
       loader: 'jsx-loader?harmony'
     }, {
       test: /\.(js|jsx)$/,
-      loader: 'jsx-loader?insertPragma=React.DOM'
+      loader: 'jsx-loader'
     }, {
       test: /\.css/,
       loader: ExtractTextPlugin.extract(
