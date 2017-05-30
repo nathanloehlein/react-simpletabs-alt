@@ -1,10 +1,10 @@
 /*!
  * 
- *  React Simpletabs - Just a simple tabs component built with React, forked from react-simpletabs
+ *  React Simpletabs - Just a simple tabs component built with React
  *  @version v0.7.0
- *  @link https://github.com/i-a-n/react-simpletabs-alt
+ *  @link https://github.com/pedronauck/react-simpletabs
  *  @license MIT
- *  @author Ian M (https://github.com/i-a-n)
+ *  @author Pedro Nauck (https://github.com/pedronauck)
  * 
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -121,6 +121,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    );
 	  },
 	  setActive:function(index, e) {
+	    e.preventDefault();
+
 	    var onAfterChange = this.props.onAfterChange;
 	    var onBeforeChange = this.props.onBeforeChange;
 	    var $selectedPanel = this.refs['tab-panel'];
@@ -187,7 +189,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	Tabs.Panel = React.createClass({
 	  displayName: 'Panel',
 	  propTypes: {
-	    title: React.PropTypes.string.isRequired,
+	    title: React.PropTypes.oneOfType([
+	      React.PropTypes.element,
+	      React.PropTypes.string
+	    ]).isRequired,
 	    children: React.PropTypes.oneOfType([
 	      React.PropTypes.array,
 	      React.PropTypes.element
